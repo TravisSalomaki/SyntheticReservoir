@@ -1,4 +1,3 @@
-## Travis Salomaki, the University of Texas at Austin | [LinkedIn](https://www.linkedin.com/in/travissalomaki/)
 
 ## Motivation
 
@@ -40,3 +39,4 @@ The third method, `self.visualize()`, takes the desired data (e.g `self.por`) as
 If you encounter any problems with the program or have any general questions about its use feel free to email me at travis.salomaki@gmail.com.
 
 Travis Salomaki, B.S. Petroleum Engineering Honors, the University of Texas at Austin.
+[LinkedIn](https://www.linkedin.com/in/travissalomaki/)
