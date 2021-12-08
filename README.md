@@ -6,7 +6,8 @@ This tool provides a method to generate semi-realistic synthetic reservoir data 
 This project was created to support Dr. Matthew Balhoff at the University of Texas at Austin in the creation of a reservoir simulation textbook. This project would not be possible if not for Dr. Michael Pyrcz's geostatistical python library, ["GeostatsPy"](https://github.com/GeostatsGuy/GeostatsPy) which provides the technical backbone through which the simulated data is created. Additionally, portions of the code that create the porosity and permeability values were borrowed from Dr. Michael Pyrcz's workflow titled ["GeostatsPy_synthetic_well_maker"](https://github.com/GeostatsGuy/PythonNumericalDemos/blob/master/GeostatsPy_synthetic_well_maker.ipynb).
 
 ## ReadMe
-Before running the program, you will most likely have to install GeostatsPy into your anaconda environment if you haven't already. For Mac users this may be tricky as you have to jump through some extra hoops. [Here](https://github.com/GeostatsGuy/GSLIB_MacOS) is a link to further intstructions for installing the necessary executables for Mac users. 
+To begin, you must have GeostatsPy installed on your anaconda environment. To do this, simply open up a terminal within anaconda and type 'pip install geostatspy'.
+After that, you must also have the GSLIB executable files downloaded within your working directory. To download the executable files, go to GSLIB.com and navigate to the download page. For Mac users this may be tricky as you have to jump through some extra hoops. [Here](https://github.com/GeostatsGuy/GSLIB_MacOS) is a link to further intstructions for installing the necessary executables for Mac users. 
 
 To use the program, an excel file must be created that contains the various inputs of the program. Within the GitHub repository is a template of the input sheet or you can download it directly [here](https://github.com/TravisSalomaki/SyntheticReservoir/raw/main/InputTemplate.xlsx).
 
