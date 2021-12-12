@@ -6,6 +6,14 @@ This tool provides a method to generate semi-realistic synthetic reservoir data 
 This project was created to support Dr. Matthew Balhoff at the University of Texas at Austin in the creation of a reservoir simulation textbook. This project would not be possible if not for Dr. Michael Pyrcz's geostatistical python library, ["GeostatsPy"](https://github.com/GeostatsGuy/GeostatsPy) which provides the technical backbone through which the simulated data is created. Additionally, portions of the code that create the porosity and permeability values were borrowed from Dr. Michael Pyrcz's workflow titled ["GeostatsPy_synthetic_well_maker"](https://github.com/GeostatsGuy/PythonNumericalDemos/blob/master/GeostatsPy_synthetic_well_maker.ipynb).
 
 ## ReadMe
+### Quick-Start Guide
+1. Install GeostatsPy in your anaconda environment by writing 'pip install geostatspy' in your anaconda terminal.
+2. Download the GSLIB executable files [(here)](http://www.statios.com/Quick/gslib.html) and move them into your working directory.
+3. Fill out the input template excel file and make sure the excel file is also in the working directory.
+4. Run the program in Jupyter Notebook.
+5. Check to see if the export files were sucessfully created in the working directory. 
+
+### In-Depth Guide
 To begin, you must have GeostatsPy installed on your anaconda environment. To do this, simply open up a terminal within anaconda and type 'pip install geostatspy'.
 After that, you must also have the GSLIB executable files downloaded within your working directory. To download the executable files, go to GSLIB.com and navigate to the [download page](http://www.statios.com/Quick/gslib.html). For Mac users this may be tricky as you have to jump through some extra hoops. [Here](https://github.com/GeostatsGuy/GSLIB_MacOS) is a link to further intstructions for installing the necessary executables for Mac users. Once you have the executable files downloaded, make sure `sgsim.exe` is in your working directory or else the program will not work properly.
 
