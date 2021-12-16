@@ -19,6 +19,17 @@ After that, you must also have the GSLIB executable files downloaded within your
 
 To use the program, an excel file must be created that contains the various inputs of the program. Within the GitHub repository is a template of the input sheet or you can download it directly [here](https://github.com/TravisSalomaki/SyntheticReservoir/raw/main/InputTemplate.xlsx).
 
+The inputs are as follows:
+
+- `nx ny nz [int]` represent the number of grid blocks in the corresponding x, y, and z directions.
+- `hsiz [float]` represents the horizontal dimensions of each grid block. I.e the length of each grid block in the x and y directions. 
+- `vsiz [float]` represents the vertical height of each grid block. I.e the height of the grid block in the z direction. 
+- `por_mean & por_std [float]` represent the mean and standard deviation of the target porosity distribution. 
+- `perm_mean & perm_std [float]` represent the mean and standard deviation of the target permeability distribution.
+- `DP [float [0:1]]` represents the Dykstra-Parsons coefficient of the total permeability distribution across all layers. A measure of permeability heterogeniety. 
+- `hor_ang [float]` represents the angle by which the reservoir is rotated about the z-axis (out of the page) according to the right hand rule. Think azimuth.
+- `ver_ang [float]` represents the angle by which the reservoir is rotated about the y-axis (north). Think dip. 
+
 The program can be run either in a Jupyter notebook or from a command terminal. Note, interactive plotting is only currently supported within the Jupyter notebook version. 
 
 To run the program, simply instantiate the object and then call its master() method.
